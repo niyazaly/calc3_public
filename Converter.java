@@ -39,5 +39,4 @@ public class Converter {
     public int toArabic(String number) {
         return ROMAN.get(number);
     }
-
 }
