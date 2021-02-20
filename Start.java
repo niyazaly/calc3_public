@@ -5,9 +5,9 @@ public class Start {
 
     public static void main(String[] args) throws IOException {
 
-        System.out.println("Input equation in arabic or roman numbers");
-        System.out.println("Input only arabic OR only roman numbers from 1 to 10 / I to X");
-        System.out.println("Numbers and char must be divided by spaces:");
+        System.out.println("Введите уравнение арабскими или римскими цифрами");
+        System.out.println("Разрешаются только целые арабские цифры от 1 до 10 ИЛИ только римские цифры  от I до X");
+        System.out.println("Цифры и знаки операций должны быть разделены пробелом:");
 
         try (Scanner sc = new Scanner(System.in)) {
             String result = new Calculator().calculate(sc.nextLine().trim().toUpperCase().split(" "));
