@@ -27,5 +27,4 @@ public class Calculator {
             default: throw new IllegalArgumentException();
         }
     }
-
 }
